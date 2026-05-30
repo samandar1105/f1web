@@ -1,0 +1,33 @@
+
+DEPLOYMENT GUIDE
+
+FILES:
+
+final_model.pkl
+final_scaler.pkl
+final_feature_names.pkl
+final_metadata.json
+inference.py
+
+MODEL:
+
+RandomForest
+
+ACCURACY:
+
+0.8925
+
+ROC_AUC:
+
+0.9558
+
+DEPLOYMENT OPTIONS:
+
+1. FastAPI
+2. Streamlit
+3. Render
+4. Railway
+5. Google Cloud
+6. Docker
+
+READY FOR PRODUCTION

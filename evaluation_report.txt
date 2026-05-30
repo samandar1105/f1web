@@ -1,0 +1,40 @@
+
+============================================================
+MODEL EVALUATION REPORT
+============================================================
+
+Problem Type:
+-------------
+CLASSIFICATION
+
+Dataset:
+--------
+Train Samples: 81096
+Test Samples : 20275
+
+============================================================
+MODEL COMPARISON
+============================================================
+
+             Model  Train_Accuracy  Test_Accuracy  Accuracy_Gap  Test_F1  Test_Precision  Test_Recall  ROC_AUC
+      RandomForest        0.926334       0.892528      0.033806 0.891007        0.890438     0.892528 0.955846
+  GradientBoosting        0.877096       0.871911      0.005185 0.870164        0.869265     0.871911 0.940057
+LogisticRegression        0.779459       0.781948     -0.002489 0.750849        0.762433     0.781948 0.787032
+
+============================================================
+BEST MODEL
+============================================================
+
+Best Model: RandomForest
+
+Reason:
+-------
+Highest F1 Score on unseen test data.
+
+============================================================
+OVERFITTING ANALYSIS
+============================================================
+
+GradientBoosting: gap = 0.0052
+LogisticRegression: gap = -0.0025
+RandomForest: gap = 0.0338

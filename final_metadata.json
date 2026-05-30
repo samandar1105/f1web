@@ -1,0 +1,35 @@
+{
+    "model_type": "RandomForest",
+    "problem_type": "CLASSIFICATION",
+    "training_date": "2026-05-30T20:54:36.434459",
+    "feature_count": 20,
+    "feature_names": [
+        "LapNumber",
+        "Stint",
+        "TyreLife",
+        "Year",
+        "Cumulative_Degradation",
+        "Normalized_TyreLife",
+        "Position_Change",
+        "Driver_DEV",
+        "Compound_MEDIUM",
+        "Race_Belgian Grand Prix",
+        "Race_Canadian Grand Prix",
+        "Race_Chinese Grand Prix",
+        "Race_Mexico City Grand Prix",
+        "Race_Miami Grand Prix",
+        "Race_Monaco Grand Prix",
+        "Race_Pre-Season Testing",
+        "Race_Pre-Season Track Session",
+        "Race_Saudi Arabian Grand Prix",
+        "TyreWearRate",
+        "TyreStress"
+    ],
+    "metrics": {
+        "accuracy": 0.8925277435265104,
+        "precision": 0.8904379637397112,
+        "recall": 0.8925277435265104,
+        "f1_score": 0.8910070190832153,
+        "roc_auc": 0.9558462922686959
+    }
+}

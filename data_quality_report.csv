@@ -1,0 +1,17 @@
+Feature,Data_Type,Missing_Count,Missing_Percentage,Unique_Values
+Driver,str,0,0.0,31
+LapNumber,int64,0,0.0,78
+Compound,str,66,0.06510737784968088,5
+Stint,int64,0,0.0,8
+TyreLife,float64,0,0.0,78
+Position,int64,0,0.0,20
+LapTime (s),float64,0,0.0,40779
+Race,str,0,0.0,28
+Year,int64,0,0.0,4
+LapTime_Delta,float64,0,0.0,54084
+Cumulative_Degradation,float64,0,0.0,81360
+PitStop,int64,0,0.0,2
+PitNextLap,int64,0,0.0,2
+RaceProgress,float64,0,0.0,1437
+Normalized_TyreLife,float64,0,0.0,1340
+Position_Change,float64,0,0.0,37
